@@ -13,13 +13,7 @@
   font-family: Arial, sans-serif;
 }
 
-.names {
- margin-left: 45%;
-  align-items: center;
-}
-.cal{
-  margin-left: 45%;
-}
+
 
 body.dark-mode {
   filter: invert(1) hue-rotate(180deg);
