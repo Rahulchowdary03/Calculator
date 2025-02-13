@@ -1,0 +1,52 @@
+.text{
+  font-size: xx-large;
+  color: #000;
+  
+}
+.App {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the app takes up the full height of the viewport */
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.names {
+ margin-left: 45%;
+  align-items: center;
+}
+.cal{
+  margin-left: 45%;
+}
+
+body.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.toggle-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-mode {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+input.input-field {
+  background-color: transparent;
+  color: inherit;
+}
+
+.calendar{
+  background: slategray;
+  
+}
+
+
